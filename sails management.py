@@ -15,7 +15,7 @@ def enter ():
 
     listbox.insert(1,name,qty,price,amt)
     
-    con = ctor.connect(host="localhost",user ="root",password='#Rk74887479So*',database="items")
+    con = ctor.connect(host="localhost",user ="root",password='7488',database="items")
     cur = con.cursor()
     quary="insert into bill values('{}','{}','{}','{}')"#
     val= (name,qty,price,amt)#
